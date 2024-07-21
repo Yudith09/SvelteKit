@@ -53,7 +53,7 @@
 <div class="component">
   <div class="w-[390px] h-[292px] px-[125px] py-5 bg-white rounded-3xl flex-col justify-center items-center gap-[30px] inline-flex">
 	<img class="w-[60px] h-[60px]" src={icons8_phone_2} />
-	<div class="h-[162px] flex-col justify-start items-center flex">
+	<div class="w-[350px] h-[131px] left-0 flex-col justify-start items-center flex inline-flex">
 	  <div class="self-stretch text-center text-sky-950 text-[26px] font-semibold font-['Khula'] leading-[38px]">Text & Fax</div>
 	  <div class="self-stretch text-center text-sky-950/opacity-60 text-xl font-normal font-['Khula'] leading-[31px]">Stay connected with colleagues, partners, and clients through integrated text and fax services, eliminating the need for separate devices.</div>
 	</div>
@@ -63,7 +63,7 @@
 <div class="component">
   <div class="w-[390px] h-[251px] px-[125px] py-5 bg-white rounded-3xl flex-col justify-center items-center gap-[30px] inline-flex">
 	<img class="w-[50px] h-[50px]" src={icons8_phone_256} />
-	<div class="h-[131px] flex-col justify-start items-center flex">
+	<div class="w-[350px] h-[131px] left-0 flex-col justify-start items-center flex">
 	  <div class="self-stretch text-center text-sky-950 text-[26px] font-semibold font-['Khula'] leading-[38px]">Task Manager</div>
 	  <div class="self-stretch text-center text-sky-950/opacity-60 text-xl font-normal font-['Khula'] leading-[31px]">Organize your workload, track progress, and collaborate effectively with our intuitive task manager.</div>
 	</div>
@@ -73,9 +73,9 @@
 <div class="component">
   <div class="w-[390px] h-[292px] px-[125px] py-5 bg-white rounded-3xl flex-col justify-center items-center gap-[30px] inline-flex">
 	<img class="w-[60px] h-[60px]" src={icons8_call} />
-	<div class="h-[162px] flex-col justify-start items-center flex">		
+	<div class="w-[350px] h-[162px] left-0 flex-col justify-start items-center flex">		
 	  <div class= "self-stretch text-center text-sky-950 text-[26px] font-semibold font-['Khula'] leading-[38px] ">Video Call</div>
-	  <div class="self-stretch text-center text-sky-950/opacity-60 text-xl font-normal font-['Khula'] leading-[31px]">Host clear, engaging video conferences with screen sharing, fostering stronger relationships and enhancing communication.</div>
+	  <div class="self-stretch text-center text-sky-950/opacity-60 text-xl font-normal font-['Khula'] leading-[31px]">Host clear, engaging video conferences with screen sharing, fostering stronger relationships and enhancing communication.</div>	
 	</div>
    </div> 
   </div>
@@ -94,17 +94,17 @@
 	.componentExternal{
 		width: Hug (390px)px;
         height: Hug (578px)px;
-        padding: 5px 20px 20px 125px;
+        padding: 5px 0px 20px 125px;
         gap: 0px;
         border-radius: 24px 0px 0px 0px;
         opacity: 0px;
 	}
 	.component{
 		width: Fill (390px)px;
-		height: Hug (412px)px;
-		padding: 20px 125px 20px 125px;
-		gap: 60px;
-		border-radius: 24px 0px 0px 0px;
-		opacity: 0px;
+        height: Hug (412px)px;
+        padding: 20px 125px 20px 125px;
+        gap: 60px;
+        border-radius: 24px 0px 0px 0px;
+        opacity: 0px;
 	}	
 </style>
