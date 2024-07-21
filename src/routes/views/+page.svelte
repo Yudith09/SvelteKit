@@ -6,10 +6,12 @@
 	import icons8_phone from '$lib/imagesprop/icons8_phone.png'
     import icons8_phone_2 from '$lib/imagesprop/icons8_phone_2.png'
 	import icons8_phone_256 from '$lib/imagesprop/icons8_phone_256.png' 
-	import icons8_call from '$lib/imagesprop/icons8_call.png' 	
+	import icons8_call from '$lib/imagesprop/icons8_call.png'
+	import {Button} from 'flowbite-svelte';	
+	import { Input, Label, Helper } from 'flowbite-svelte';
 </script>
 
-<div class="all">
+
 <div class="component">
   <div class="w-[390px] h-[152px] p-5 bg-white rounded-bl-3xl rounded-br-3xl justify-between items-end inline-flex">
 	<img alt="The project logo" src={newlogo} />
@@ -79,6 +81,48 @@
 	</div>
    </div> 
   </div>
+<div class="component">
+	<div class="w-80 h-96 p-5 bg-white rounded-3xl shadow flex-col justify-center items-center gap-6 inline-flex">
+		<div class="text-sky-950/opacity-60 text-base font-normal font-['Khula'] leading-loose">GET YOUR FREE QUOTE NOW</div>
+		<div class="self-stretch h-12 px-5 py-2.5 bg-white rounded-2xl border border-sky-950 justify-start items-center gap-2.5 inline-flex">
+			<div class="w-24 h-6 text-sky-950/opacity-60 text-base font-normal font-['Khula'] leading-loose">
+				<Label for="first_name" class="mb-2">First name</Label>
+			</div>
+		</div>
+		<div class="self-stretch h-12 px-5 py-2.5 bg-white rounded-2xl border border-sky-950 justify-start items-center gap-2.5 inline-flex">
+		  <div class="w-24 h-6 text-sky-950/opacity-60 text-base font-normal font-['Khula'] leading-loose">
+			<Label for="first_name" class="mb-2">Last Name</Label></div>
+		</div>
+		<div class="self-stretch h-12 px-5 py-2.5 bg-white rounded-2xl border border-sky-950 justify-between items-center inline-flex">
+		  <div class="w-16 h-6 relative">
+			<div class="w-8 h-4 left-0 top-[8px] absolute text-sky-950/opacity-60 text-base font-normal font-['Khula'] leading-loose">+1</div>
+			<img class="w-8 h-6 left-[36px] top-0 absolute" src="https://via.placeholder.com/31x24" />
+		  </div>
+		  <div class="w-36 h-6 text-center text-sky-950/opacity-60 text-base font-normal font-['Khula'] leading-loose">
+			<Label for="first_name" class="mb-2">Phone Number</Label></div>
+		</div>
+		<div class="self-stretch h-12 px-5 py-2.5 bg-white rounded-2xl border border-sky-950 justify-between items-center inline-flex">
+		  <div class="w-32 h-12"><span style="text-sky-950/opacity-60 text-sm font-normal font-['Khula'] leading-tight">Country/Region</span><span style="text-sky-950/opacity-60 text-base font-normal font-['Khula'] leading-tight">     </span><span style="text-sky-950 text-base font-normal font-['Khula'] leading-tight">Select</span></div>
+		  <img class="w-8 h-6" src="https://via.placeholder.com/31x24" />
+		</div>
+		<div class="self-stretch h-12 px-5 py-2.5 bg-white rounded-2xl border border-sky-950 justify-between items-center inline-flex">
+		  <div class="w-24 h-12"><span style="text-sky-950/opacity-60 text-sm font-normal font-['Khula'] leading-snug">Industry</span><span style="text-sky-950/opacity-60 text-base font-normal font-['Khula'] leading-tight">     </span><span style="text-sky-950 text-base font-normal font-['Khula'] leading-tight">Select</span></div>
+		  <img class="w-8 h-6" src="https://via.placeholder.com/31x24" />
+		</div>
+		<div class="self-stretch h-12 px-5 py-2.5 bg-white rounded-2xl border border-sky-950 justify-between items-center inline-flex">
+		  <div class="w-24 h-12"><span style="text-sky-950/opacity-60 text-sm font-normal font-['Khula'] leading-tight">Employers</span><span style="text-sky-950/opacity-60 text-base font-normal font-['Khula'] leading-tight">     </span><span style="text-sky-950 text-base font-normal font-['Khula'] leading-tight">Select</span></div>
+		  <img class="w-8 h-6" src="https://via.placeholder.com/31x24" />
+		</div>
+		<div class="h-36 flex-col justify-start items-center gap-2.5 flex">
+		  <div class="self-stretch h-20 p-4 bg-neutral-50 rounded justify-start items-start gap-2 inline-flex">
+			<div class="w-6 h-6 relative"></div>
+			<div class="grow shrink basis-0 text-sky-950 text-base font-normal font-['Khula'] leading-tight">This is a form element that is very long and will become taller the more text that is in it. </div>
+		  </div>
+		  <div class="w-56 h-14 px-14 py-3.5 bg-orange-400 rounded-2xl shadow justify-center items-center gap-2.5 inline-flex">
+			<Button href="/">Get started</Button>
+		</div>
+		</div>
+	  </div>
 </div>
 
 <style lang="postcss">
